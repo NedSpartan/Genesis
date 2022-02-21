@@ -1,0 +1,368 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+
+<div class="px-4 py-5 my-5 text-center">
+
+    <h1 class="display-5 fw-bold">Genesis Rolling Guide</h1>
+
+    <div class="col-lg-6 mx-auto">
+
+      <p class="lead mb-4">Rolling holes is a fundamental skill to possess whilst living in wormholes. It can be a bit daunting the first few times until you get the hang of things. The following guide was composed with the aim to be extremely detailed and thus it is a bit long. If you already know the basics, you can skip to the end and use the table for rolling information. New members are advised to read the entire guide and commit the basic terms & concepts to memory. If you have any questions, do not hesitate to pipe up on comms and ask your friendly local bitter vet.</p>
+      <div class="card text-center">
+        <div class="card-header">
+          Resources
+        </div>
+        <div class="card-body">
+
+          <h5 class="card-title mb-2">Both of these resources list the wormhole types (<i>by ID</i>), giving classification and mass</h5>
+          <div class="mb-3">
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div>
+          <p class="card-text">This resource was developed by some random dude met in a Freeport, and he was kind enough to share this. It’s a helpful tool, but takes a minute to figure out. <strong>Don’t fuck up his code</strong>, just use the bottom right corner of the page.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center">
+
+    <h1 class="display-t fw-bold mb-5">Key Terms</h1>
+
+    <div class="card text-center mb-5">
+        
+      <div class="card-header text-white bg-secondary">
+        <h3>Cold</h3>
+      </div>
+
+      <div class="card-body">
+        Entering a wormhole without using a propulsion module -- “200”
+      </div>
+    </div>
+
+    <div class="card text-center mb-5">
+
+        <div class="card-header text-white bg-secondary">
+          <h3>Hot</h3>
+        </div>
+  
+        <div class="card-body">
+            Entering a wormhole whilst using a propulsion module -- “300”
+        </div>
+    </div>
+
+    <div class="card text-center mb-5">
+
+        <div class="card-header text-white bg-secondary">
+          <h3>Higgs Battleship</h3>
+        </div>
+  
+        <div class="card-body">
+            A battleship fitted specifically for rolling holes, which includes a Higgs Anchor rig. This gives it a substantial boost to its mass at the cost of making it slow af.
+        </div>
+    </div>
+
+    <div class="card text-center mb-5">
+
+        <div class="card-header text-white bg-secondary">
+          <h3>Non-Higgs Battleship</h3>
+        </div>
+  
+        <div class="card-body">
+            Any battleship that doesn’t have a Higgs Anchor rig.
+        </div>
+    </div>
+
+    <div class="card text-center mb-5">
+
+        <div class="card-header text-white bg-secondary">
+          <h3>HIC/Hictor</h3>
+        </div>
+  
+        <div class="card-body">
+            A special cruiser (Heavy Interdiction Cruiser) used to more safely roll crit holes. It does this by using mods that decrease the ships mass to be smaller than a frigate upon entering the hole, but then uses its prop mod going back the other way to get big. (Ex: small = 750,000kg, normal = 30,000,000kg, large = 130,000,000kg -- that’s quite a range!)
+        </div>
+    </div>
+
+    <div class="card text-center mb-5">
+
+        <div class="card-header text-white bg-secondary">
+          <h3>Maller</h3>
+        </div>
+  
+        <div class="card-body">
+            a poor man’s hictor (normal = 30,000,000kg, large = 130,000,000kg). Much cheaper/easier to get into, but it can’t get super-small like the hictor, therefore isn’t as safe (but still pretty safe)
+        </div>
+    </div>
+
+    <div class="card px-4 py-4 my-5 text-center">
+
+        <h1 class="display-t fw-bold mb-5">Wormhole Terms</h1>
+    
+        <div class="card text-center mb-5">
+    
+          <div class="card-header text-white bg-secondary">
+            <h3>Fresh Hole</h3>
+          </div>
+    
+          <div class="card-body">
+            The hole has between 50-100% mass left.
+          </div>
+        </div>
+    
+        <div class="card text-center mb-5">
+    
+            <div class="card-header text-white bg-secondary">
+              <h3>Reduced Hole</h3>
+            </div>
+      
+            <div class="card-body">
+                less than 50% mass left, so less than 1B on a 2B hole or less than 1.5B on a 3B hole.
+            </div>
+        </div>
+    
+        <div class="card text-center mb-5">
+    
+            <div class="card-header text-white bg-secondary">
+              <h3>Crit Hole</h3>
+            </div>
+      
+            <div class="card-body">
+                “The hole is on the verge of collapse” aka it has less than 10% mass available. If it’s a 3B hole, it has less than 300m mass left. If it’s a 2B hole, it has less than 200m mass left.
+            </div>
+        </div>
+    
+        <div class="card text-center mb-5">
+    
+            <div class="card-header text-white bg-secondary">
+              <h3>Static Hole</h3>
+            </div>
+      
+            <div class="card-body">
+                This refers to a type of connection that will always exist to a system. In Genesis we have two statics, a class 3 and a class 5. It won’t always be the same system, but there will always be a class 3 and a class 5 connected to Genesis.
+            </div>
+        </div>
+    
+        <div class="card text-center mb-5">
+    
+            <div class="card-header text-white bg-secondary">
+              <h3>Wandering Hole</h3>
+            </div>
+      
+            <div class="card-body">
+                This is a non-static wormhole that shows up in a system. When we see these in Genesis we generally scout & roll them immediately, as they could be an entry point for hostiles.
+            </div>
+        </div>
+    
+        <div class="card text-center mb-5">
+    
+            <div class="card-header text-white bg-secondary">
+              <h3>SC3</h3>
+            </div>
+      
+            <div class="card-body">
+                Static Class Three Wormhole. Often has better connections to high sec/low sec space. Easier rats/anomalies and more newbro-friendly. SC3 is always a 2B mass hole.
+            </div>
+        </div>
+
+        <div class="card text-center mb-5">
+    
+            <div class="card-header text-white bg-secondary">
+              <h3>SC5</h3>
+            </div>
+      
+            <div class="card-body">
+                Static Class Five Wormhole. Bigger, tougher, and meaner rats/anomalies that drop more loot. Most often farmed by multi-boxers and large groups. SC5 is always a 3B mass hole.
+            </div>
+        </div>
+
+        <div class="card text-center mb-5">
+    
+            <div class="card-header text-white bg-secondary">
+              <h3>End Of Life (EOL)</h3>
+            </div>
+      
+            <div class="card-body">
+                This hole will collapse in less than 4 hours. Depending on whether you know when the hole went eol, it could collapse at any time or in 4 hours. Typically best to avoid or roll these shut.
+            </div>
+        </div>
+
+        <div class="card text-center mb-5">
+    
+            <div class="card-header text-white bg-secondary">
+              <h3>Frig Hole</h3>
+            </div>
+      
+            <div class="card-body">
+                This type of wormhole allows “only the smallest ships” to pass (i.e., frigates, destroyers, and hictors). These holes are notoriously difficult to roll (practically impossible), so it is generally recommended to place a scout on such a hole or just roll the static (if it’s located in one).
+            </div>
+        </div>
+    </div>
+
+    <div class="card px-4 py-4 my-5 text-center">
+
+        <h1 class="display-t fw-bold mb-5">Further Wormhole Classifications</h1>
+    
+        <div class="card text-center mb-5">
+
+            <div class="card-header">
+              <h3>Wormholes are categorized by their total mass allowance, lifespan, and per jump max capacity (the size of ships allowed to pass).</h3>
+            </div>
+      
+        </div>
+
+        <div class="card text-center mb-5">
+
+            <div class="card-header">
+              <h3>Total mass allowance has already been addressed. We most often encounter holes with 2 billion or 3 billion kg of mass, although other types exist.</h3>
+            </div>
+      
+        </div>
+
+        <div class="card text-center mb-5">
+
+            <div class="card-header">
+              <h3>The maximum lifespan of most wormholes are 16 hours for most 2 bill holes (SC3) and 24 hours for most 3 bill holes (SC5). The most important phase of lifespan of which you should be cognizant is when “the hole is reaching the end of its natural lifetime,” typically referred to as “end of life” or EOL.</h3>
+            </div>
+      
+        </div>
+
+        <div class="card text-center mb-5">
+
+            <div class="card-header">
+              <h3>The ship size cap (max mass per jump) identifies which types of ships may pass through a given wormhole.</h3>
+            </div>
+            
+            <div class="card-body">
+                <p><ul>
+                    <li class="mb-3"><i>Smallest ships</i>: Frigates, Destroyers, properly fit Heavy Interdiction Cruisers <strong>(Hictors)</strong></li>
+                    <li class="mb-3"><i>Medium ships</i>: Battlecruiser-sized ships and down (includes most industrial haulers, such as iterons, epithals, blockade runners, DST’s, and the like)</li>
+                    <li class="mb-3"><i>Larger ships</i>: Battleships, Orcas, and below</li>
+                    <li class="mb-3"><i>Very large ships</i>: everything except Titans and Supers</li>
+                </ul>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card px-4 py-4 my-5 text-center">
+      
+        <h1 class="display-t fw-bold mb-5">Rolling Procedures</h1>
+
+        <p class="lead mb-4"><i>IMPORTANT NOTE: ALWAYS check the hole mass after each jump (using Show Info), so you know when the mass change occurred.</i></p>
+
+        <div class="card text-center mb-5">
+
+          <div class="card-header text-white bg-secondary">
+            <h3>SC3 (2B Hole)</h3>
+          </div>
+
+          <div class="card-body">
+            <p>
+                <strong>Mass Reduces exiting Genesis (into SC3)</strong> 800-1,000kkg remaining.
+                Jump Genesis Cold (600-800), Jump SC3 Cold (400-600), Jump Genesis Cold (200-400), Jump SC3 Cold (0-200), Jump Genesis Hot (Hole should close)
+                Note: Try to jump cold when dealing with 2B holes to avoid reducing at 700-1,000, which is more difficult.
+            </p>
+            <p>
+                <strong>Mass Reduces Entering Genesis (into Genesis)</strong> 800-1,000kkg remaining.
+                Jump SC3 Cold (600-800), Jump Genesis Hot (300-500), Jump SC3 Cold (100-300), Jump Genesis Hot (Hole should close)
+            </p>
+          </div>
+        </div>
+
+        <div class="card text-center mb-5">
+
+            <div class="card-header text-white bg-secondary">
+              <h3>SC5 (3B Hole)</h3>
+            </div>
+  
+            <div class="card-body">
+              <p>
+                <strong>Mass Reduces Exiting Genesis (into SC5)</strong> 1,200-1,500kkg remaining.
+                Jump Genesis Hot (900-1,200), Jump SC5 Hot (600-900), Jump Genesis Hot (300-600), Jump SC5 Hot (0-300), Jump Genesis Hot (Hole should close)
+                
+              </p>
+              <p>
+                <strong>Mass Reduces Entering Genesis (into Genesis)</strong> 1,200-1,500kkg remaining.
+                Jump SC5 H (900-1,200), Jump Genesis Hot (600-900), Jump SC5 Cold (400-700), Jump Genesis Cold (200-500), Jump SC5 Cold (0-300), Jump Genesis Hot (Hole should close)                
+              </p>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="card px-4 py-4 my-5 text-center">
+        <h1 class="display-t fw-bold mb-5">Starting Below 50%</h1>
+        <p class="lead mb-4"><i>Note: When starting below 50% hole mass (especially when you have no idea what the mass is), it is prudent to proceed with caution. For SC3 this means jumping COLD, and for SC5 this means jumping out COLD and in HOT.</i></p>
+
+        <div class="card text-center mb-5">
+          
+          <div class="card-header text-white bg-secondary">
+            <h3>SC3 (2B Hole)</h3>
+          </div>
+
+          <div class="card-body">
+            <p>
+                Jump a Rolling/Higgs Battleship out <strong>COLD</strong>. Then jump a **non-Higgs Battleship back and forth COLD until the hole crits, then jump Higgs/Rolling Battleship back in HOT.
+            </p>
+          </div>
+        </div>
+
+        <div class="card text-center mb-5">
+          
+            <div class="card-header text-white bg-secondary">
+              <h3>SC5 (3B Hole)</h3>
+            </div>
+  
+            <div class="card-body">
+              <p>
+                Jump a Rolling/Higgs Battleship out COLD and in HOT, checking to see when the hole crits. If it crits you jump out, it should close when you return. If it crits when you jump in, then use a hictor/maller. In any event, when a hole doesn’t close after a crit jump, use hictor/maller.
+              </p>
+            </div>
+        </div>
+
+        <div clas="card text-center mb-5">
+          <div clas="card-body">
+            <p><i>**Note</i>: A non-Higgs Battleship can be any battleship without a L Higgs Anchor rig. <i>This could be a PvE Dominix/Praxis or even a Rolling Battleship with the Higgs rig removed</i>.</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="card px-4 py-4 my-5 text-center">
+      <h1 class="display-t fw-bold mb-5">The Rolling Table</h1>
+
+      <table class="table">
+          <thead>
+              <tr class="table-dark">
+                  <th scope="col">Starting Above 50%</th>
+                  <th scope="col">Reduces jumping into Static</th>
+                  <th>Reduces jumping into Genesis</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <th scope="row">SC3 (2B)</th>
+                <td>C, C/C, C/H</td>
+                <td>C/H, C/H</td>
+              </tr>
+              <tr class="table-secondary">
+                  <th scope="row">SC5 (3B)</th>
+                  <td>H. H/H, H/H</td>
+                  <td>H/H, C/C, C/H</td>
+              </tr>
+          </tbody>
+      </table>
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,511 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+
+<div class="px-4 py-5 my-5 text-center">
+
+  <h1 class="display-5 fw-bold mb-5">Principles of Genesis</h1>
+  <!--Picture of Genesis 10 commandments-->
+  <img class="mb-5" src="{{url_for('static', filename='10.jpeg')}}" alt="10 commandments">
+  
+  <div class="col-lg-6 mx-auto">
+
+    <p class="lead mb-4">Congratulations, you have successfully filled all of the requirements to join us in Genesis. We currently live in wormhole space with great opportunities for both casual/hardcore krabbing, and varied pvp. Our current home is a Class 4 wormhole with Class 3 and Class 5 statics. We have owned several holes but decided to bring all of our players into the core Genesis system to foster more teamwork and allow our newer players a better shot at krabbing in the c3 compared to our previous school programs which required hefty group comps.</p>
+    <p class="lead mb-4">It is a great place with frequent access to home space for those who need to krab up for their wallet (or to help the alliance coffers) via wonderful chances to do the best krabbing WH space has to offer, as well as frequent pvp.</p>
+
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">General</h1>
+
+    <div class="card text-center mb-5">
+      <h3 class="display-t fw-bold mb-5 mt-2">Be sociable, This is a community squad at its core.</h3>
+
+      <p>
+        Join us on Mumble and be a part of the Genesis community. This will also help you in the inevitable times when you are tackled ratting, or are rolling holes, etc. Voice Comms are mandatory when doing things undocked in our space or the wormhole chain.
+      </p>
+    </div>
+
+    <div class="card text-center mb-5">
+        <h3 class="display-t fw-bold mb-5 mt-2">WH life is not cheap, but it gets better with alts.</h3>
+        <p>
+            We have changed our entry requirements as we continually seek to allow fellow Imperium a great way to get used to the differences in WH space.
+        </p>
+        <p>
+            We recommend that you have extra characters for scanning, pvp response fleets, krabbing, and generally to ease the very isolated life which can exist in deep WH space.
+        </p>
+    </div>
+  </div>
+
+  </div><div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">Requirements</h1>
+
+    <div class="card text-center mb-5">
+
+      <div class="card-header">
+        <h3>
+            You must be active in imperium for the last 60 days and in good standing.
+        </h3>
+      </div>
+
+      <div class="card-body">
+        <p>
+            <i>Any senior member can also vouch people in who do not meet this requirement; note that this is a 60 day contiguous requirement, not collective total.</i>
+        </p>
+      </div>
+    </div>
+
+    <div class="card text-center mb-5">
+
+        <div class="card-header">
+
+            <h3>
+                You must own and fly the following with level 4 supports
+            </h3>
+        </div>
+    
+        <div class="card-body">
+            <p>
+              <ul>
+                  <li class="mb-5">T2 RHML Typhoon</li>
+                  <li class="mb-5">T2 Disintegrator RR Drekevak</li>
+                  <li class="mb-5">Your choice of any t1 armor cruiser with t2 weapon systems for fun/kitchen sink</li>
+                  <li class="mb-5">A pve vessel of your choice for class 3 solo or duo ratting (RHML Praxis, Dual-RR Dominix, or gila recommended), or the ability to farm c5.</li>
+                  <li class="mb-5">One covert ops cloak scanner</li>
+                  <li class="mb-5">A rolling battleship of your choice (Recommended RHML Rolling Raven, Praxis and any other 200m/300m mass bs okay).</li>
+              </ul>
+            </p>
+
+            
+        </div>
+    </div>
+
+    
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">PVE</h1>
+
+    <div class="card text-center mb-5">
+
+      <p class="lead mb-4 mt-2">Krabbing is a major way we hope to enable you to hit your goals both in k-space and in wh space. We encourage group ops and always will answer questions on how to get better. We also like to reward ops fcs who take the time to run the fleets and handle the blue book collection to the squad via our spreadsheets. If you would like to get incentives to help others fill their wallets, please let us know and we would be delighted to show you. This goes even more for our weaker time zones. There may be premiums for off-tz folks who help get our content generator going at those times.</p>
+      <p class="lead mb-4">Currently, we have class 3 krabbing for folks which is amenable to solo or small groups, and class 5 krabbing which requires greater sp, assets, and teamwork depending on composition.</p>
+    </div>
+
+    <div class="card mb-5">
+      <div class="card-header">
+        <h3>Taxation and Squad Funding</h3>
+      </div>
+
+      <div class="card-body">
+        <p class="lead">
+            You will contract all blue books to the corp Serenity Ventures at 85% Amarr buy value. <span class="fw-bold">This is a compulsory action and no one is exempted from doing this</span> as this provides the basis for squad infrastructure (including reseeding during evictions both offensively and defensively) and SRP/Content programs.
+        </p>
+      </div>
+    </div>
+
+    <h1 class="display-t fw-bold mb-5 text-white">PVP</h1>
+    
+    <div class="card text-center mb-5">
+
+      <div class="card-header">
+        <h3>We desire both krab and pvp. Our senior team members are encouraged to grow and seek out opportunities.</h3>
+      </div>
+
+      <div class="card-body">
+        <p class="lead">
+          <ul>
+              <li class="mb-5">While you may not be a small gang expert, we hope you are looking to get better in this format and be able to accept loss while reshipping. WH life is filled with big losses and big(ger) earnings, so we recommend resilience against loss.</li>
+              <li class="mb-5">With that said, all members are expected to be self-sufficient in PvE, whether solo or in group ops, 240m/hr in the C3 and over a billion/hr in the C5 because the income is sometimes highly variable but higher than most activities.</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="card text-center mb-5">
+      
+      <div class="card-header">
+        <h3>We require the following ships at minimum</h3>
+      </div>
+
+      <div class="card-body">
+        <ul>
+            <li class="mb-5">A Scanning Ship</li>
+            <li class="mb-5">Rolling Battleship (Raven (recommended), Megathron, Praxis, Apocalypse, Tempest)</li>
+            <li class="mb-5">T2 RHML Typhoon</li>
+            <li class="mb-5">T2 Gun RR Drekevak</li>
+            <li class="mb-5">A pve hull or two for C3 or C5 ratting</li>
+            <li class="mb-5">We heavily recommend that you invest in additional ships immediately on move in for small gang purposes. Read the fits section for advice if required, or chat to us on Mumble.</li>
+        </ul>
+
+        <p>
+            A stretch-goal for Genesis Advanced members should include having a capital-capable pilot in the hole. Carriers > Fax > Dreads are a last resort for us, but they may be required for Home Defence should a group attempt to evict us. These are force multipliers in the hole and you will be extremely valuable to the group, should you be able to ship up to capitals.
+        </p>
+
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">Character Goals for Core & Advanced Members</h1>
+    <p class="lead mb-5 text-white">
+        Genesis is well suited for all levels of SP/EVE experience.. We used to require a minimum skills list that amounted to 16.3 million sp… That went about how you might expect in the Greater Imperium. The skills are still great, however, so please use them as a frame of reference when you are wondering what you should train next!
+    </p>
+    <div class="card mb-5">
+      <div class="card-header">
+        <h3>Recommended Target Progression by Doctrine</h3>
+      </div>
+      <div class="card-body">
+        <p class="lead">
+            <i>You are recommended to have at least 4 in all relevant Tank, Engineering, Navigation and Weapons skills.</i>
+        </p>
+        <p>
+            <ul>
+                <li class="mb-5">Typhoon with T2 RHML and T1 Cruise</li>
+                <li class="mb-5">Drekevak with T2 Gun</li>
+                <li class="mb-5">Your choice of any t1 armor cruiser with t2 weapon systems for fun/kitchen sink.</li>
+                <li class="mb-5">Any battleship class rolling hull (Raven recommended due to high dps) for rolling wormholes.</li>
+                <li class="mb-5">Any probing frigate with cov ops cloak.</li>
+                <li class="mb-5">At least one PVE hull that will enable you to farm Class 3 wormhole sites if you cannot do C5 content (RHML Praxis, Dual-box rr domis, gila, etc).</li>
+            </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h3>Recommended Progression Beyond Entry</h3>
+      </div>
+      <div class="card-body">
+        <p>
+            <ul>
+                <li class="mb-5">Scythe, or Osprey, or T2 Logi (Scimi, Basi, Guardian)</li>
+                <li class="mb-5"> Dictor or Boosher (Flycatcher > Buffer Heretic > Sabre > DPS Eris
+                    Bifrost > Magus > Pontifex > Stork)</li>
+                <li class="mb-5">T2 Ham Drake Navy Issue/ Nighthawk</li>
+                <li class="mb-5">
+                    Small-gang:
+                    <ul class="mt-2">
+                        <li>Hecate</li>
+                        <li>Jackdaws</li>
+                        <li>Kikis</li>
+                        <li>Orthrus</li>
+                        <li>Osprey Navy</li>
+                        <li>Scimitar</li>
+                        <li>Garmurs</li>
+                        <li>Keres/Lachesis</li>
+                    </ul>
+                </li>
+                <li class="mb-5">Legion (heavy beams and rapid light missile + logi configurations) or Nighthawks.</li>
+                <li class="mb-5">If you haven’t trained for pve already: Leshaks, Heavy Armor, Vindicators, etc.</li>
+            </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">Moving in</h1>
+    <p class="lead mb-5 text-white">
+        We’re glad to hear you are at a point where you feel ready to join us in the hole. In order to make this the best experience possible for you.. We have put together a checklist of items we require and/or suggest you bring with you. Before anything, set the corp Serenity Ventures to blue. This is our holding corp and is neutral to the Imperium. It is very important to set this to blue (set to +10). If leadership tells you to not shoot something, no matter how odd it might seem, please follow orders; wormhole space has some very tribal politics that the squad has to deal with to operate. You will be allowed in Genesis once you are accepted to Serenity Ventures. You must have a character in SV at all times or you will be removed from the squad. If you need to make changes to which character(s) is/are in the corp, then please let our directorate and recruitment team know and we will be happy to assist. You must maintain all characters you use in and around the wormhole on SeAT linked in the forum post or in our discord.
+    </p>
+
+    <div class="card mb-5">
+      <div class="card-header">
+        <h3>Moving into Genesis</h3>
+      </div>
+      <div class="card-body">
+        <p>
+            As a reminder, self-sufficiency is a virtue in wormholes, so please ask for help but be capable of doing some logistics as you do not wish to be stuck waiting for someone else to haul in your battleships etc.
+        </p>
+        <p>
+            Once your application is finally accepted you need to actually get inside the hole.  If you have zero knowledge about wormholes, then hopefully this guide can help you get started.
+        </p>
+      </div>
+    </div>
+    <div class="card mb-5">
+      <div class="card-header">
+        <h3>Pathfinder Access</h3>
+      </div>
+      <div class="card-body">
+        <p>
+            We used to use a pathfinder fork that was super easy to gain access to.
+            Now, you have to have an alt in our holding corp, Serenity Ventures, to gain access. Even if it is an alpha, please apply to the corp in-game with your main name. This character must stay in SV or you will lose map access. Once you have logged the character in via ESI, please add any characters you have to the esi; you will be able to track and make edits with those characters as normal once you have verified your character.
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">Leaving Delve (Temporarily)</h1>
+
+    <div class="card">
+      <p class="mt-3">
+        Before you start on your journey to Genesis, you need to check if there are any wormholes from k-space into Genesis. To do this, open up the pathfinder. If for some reason you cannot access the map make sure your Serenity Ventures alt has been accepted and that you are using the correct link.
+      </p>
+      <!--Picture goes here-->
+      <div>
+          <img src="{{url_for('static', filename='pathfinder.png')}}" alt="">
+      </div>
+      <p>
+        Scroll around the map until you find the system you are authorized to enter.. Once you see it, check if there are any systems leading to k-space. In this example, we have 3 wormholes leading to k-space: 2 in low sec (Comomette and Gens) and 1 in high sec (Jesoyeh). Aside from that, we also have 2 wormholes leading to null sec (NIH-02 and RNM-Y6) but you probably don't wanna go through those, unless you are really lucky and the wormhole is in Delve.
+      </p>
+
+      <p>
+        What stuff should I bring? At the very minimum, you will need at least one of each of the required ships (Typhoon, RR T2 Gun Drekevak, small gang armor etc, Pve Boat, Roller Scanner). The scanning ship is to help scan signatures down. The rolling ship is used to close wormholes (more on that later). The PvP and PvE ships should be self-explanatory. Do note that these ships are the very bare minimum and there will be a lot of situations where you’ll need various other ships. Although the squad does try to keep a stock of fitted ships in the hole, you are expected to be self-sufficient for the most part. You are no longer in Delve and things are no longer being spoon-fed to you by the alliance. The squad offers logistics and industry to help you with this, as well as the ISK that you make here should help you kickstart your journey in solo/small gang PvP. Before you leave, we recommend having a death clone in the Amarr area due to the frequency of wormholes and connected systems in their regions. Don’t forget a jump clone in Delve! You cannot jump clone back into wormhole space, so the Amarr step is incredibly important for quick returns.! Also, you cannot set your death clone to be in WH space. It is also recommended to ask around discord/mumble if the wormhole leading to k- space is still good and alive. 
+      </p>
+
+      <p>
+        <strong>If you have clones to spare, we have a list in order of priority for jump clones:</strong>
+      </p>
+
+      <p>
+          <ul>
+              <li class="mb-5">Death: Amarr (not the main station)</li>
+              <li class="mb-5">1DQ1</li>
+              <li class="mb-5">Jita</li>
+              <li class="mb-5">Thera</li>
+              <li class="mb-5">Spares for Implants in Genesis</li>
+          </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">Diving into wormhole space</h1>
+
+    <div class="card">
+        
+      <p class="lead mt-3">
+        If you managed to arrive where the wormhole is supposed to be, good job on not dying! Next part is to start your journey into wormholes. One of the parts of the recruitment process is to add your pilots into the bookmarks folder used by the squad. To see this, open up your locations window, go to shared locations and find the folder named “either Public Squad or Genesis (for Core and Advanced Members)”
+      </p>
+      <p>
+        If it isn't there, check the “Offline folders”. If it is there, right click on it and select “Online folder”; or check out the goon.genesis MOTD, it should have a link to the folder and you should have access to it now.
+      </p>
+      <!--First picture goes here-->
+      <div class="mb-5">
+        <img src="{{url_for('static', filename='bm1.png')}}" alt="">
+      </div>
+      <p>
+        If you expand it, it should show similar folders as the picture above. The number inside the brackets may change from time to time so that doesnt matter. Once the Genesis folder is confirmed to be online, press L to open up your Saved Locations window and you should find at least one bookmark in it.
+      </p>
+      <!--Second picture would go here-->
+      <div class="mb-5">
+        <img src="{{url_for('static', filename='bm2.png')}}" alt="">
+      </div>
+      
+      <p>
+        The bookmark’s label should contain an asterisk (part of the naming scheme, more on this later) and the folder should say “Genesis / * Wormholes”. Right click on it and select “warp to 0”. That should warp you right on top of the wormhole, or the guy that saved that wormhole is bad. Once you land, right click on the wormhole and select “Enter wormhole”.
+      </p>
+
+      <p>
+        Once you are inside WH space, check back on the Saved Locations window and it should contain a few more bookmarks.
+      </p>
+      <!--Third picture goes here-->
+      <div class="mb-5">
+          <img src="{{url_for('static', filename='bm3.png')}}" alt="">
+      </div>
+      <p>
+        For now, let's focus on getting into Genesis. You will have to navigate yourself to a series of wormhole systems depending on how far the k-space exit is from the Genesis system. To make things easier, we use the asterisk (*) to find the next hole that will lead to our homes. In this example, a bookmark named “*Genesis ZQH” is present, we will use that. It is also not always named “*Genesis ABC”. Sometimes it would be named *C4 XYZ or *C5 JKL, this means you are a few more systems away from Genesis. Just keep on warping to the bookmarks with the asterisk and entering the wormholes you land on. The bookmark that contains the word “Genesis” on its label means that the next system is Genesis.
+      </p>
+      <p>
+        Structures owned by Serenity Ventures should appear in your overview when you are on the right track. You should also add structures to your main overview as these are critical in wormholes.
+      </p>
+      <!--Fourth picture goes here-->
+      <div class="mb-5">
+          <img src="{{url_for('static', filename='bm4.png')}}" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">Starting Up Your Life in Genesis</h1>
+
+    <div class="card">
+      <p class="mt-3">
+        All your stuff should generally be in a combat capable citadel, or the largest citadel in the system if an astra or fortizar is not present. Living in wormholes means that all of your gear is devoid of asset safety. For this reason the squad packs light, and so should you. Everything you bring in or own ought to be planned for in terms of how you would handle its loss, evac, or suitcasing (more on that last in a minute).
+      </p>
+
+      <p>
+        In general, we ask that you account for the m3 (repackaged or not) that you bring into the wormhole, just as we do with squad assets. Because structures in wormholes will have a 50% chance to drop any given asset, we recommend having logged off alts in said structures ready to either fly (aka sit in, not fly for combat) a given hull, or able to repackage and hold inside iteron mark V’s and dsts. Any ship which is piloted and logged off inside a structure when it dies will not drop for the enemy. Instead it will usually toss you about 3 million km from the location of the structure and only when you log in will you show up. The contents, ship and so on will be safe.
+      </p>
+
+      <p>
+        All wormhole groups maintain some method of this ghetto asset safety. We recommend having a buffer of 50km3 more than you usually hold in assets because of the difficulty of keeping a current tab on your actual m3 in the hole. Note: Battleship hulls are 50km3 repackaged and thus cannot fit in low-skilled iterons. We recommend having pilots for them or dsts. Beyond mass, this is one reason why most of our doctrines are battlecruiser and lower; they are pretty simple to save if things hit the fan.
+      </p>
+
+      <p>
+        Always plan to be evicted. This is NOT a thing to fear if you have appropriately planned for your own asset safety. It does mean that alts are encouraged so your main isn’t trapped in a hostile hole for the week to three weeks it takes an enemy to get bored and/or leave the hole. If you adopt this mindset of prior planning and prevention, you will be able to fight and live far more comfortably in wormholes.
+      </p>
+    </div>
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">Ship mods every ship should have</h1>
+
+    <div class="card">
+     <p class="lead mt-3">
+        If this is your first time living in wormholes, there will be times where you will be stuck on the other side of a wormhole. For this, every ship is recommended to have at least a mobile depot (for refitting), a probe launcher (to scan down a new wormhole), probes, a cloak (any cloak will do), and a pochven or needjack filament (as well as a proximity filament to return yourself to hisec from pochven) to yeet yourself in case things really dont go your way. We heavily recommend that you use a pochven filament named Krai Veles as we have good friends that control that side of the triangle, with facilities that allow docking.
+     </p>
+     <p class="lead">
+        <i>These modules may or may not be included in the fits <strong>but always always bring them anyways</strong>.</i>
+     </p>
+     <p class="lead">
+        If you do find yourself trapped in another wormhole without filaments or dont wish to use said filaments, just do the following steps:
+        <ol>
+            <li class="mb-3">Make a safe spot</li>
+            <li class="mb-3">Deploy your mobile depot</li>
+            <li class="mb-3">Equip your probe launcher and cloak</li>
+            <li class="mb-3">Pick up your mobile depot</li>
+            <li class="mb-3">Drop probes</li>
+            <li class="mb-3">Cloak up</li>
+            <li class="mb-3">Start scanning down signatures</li>
+            <li class="mb-3">Pray you find a relatively safe k-space wormhole</li>
+            <li class="mb-3">Reflect on what you did and how you ended up trapped</li>
+        </ol>
+     </p>
+    </div>
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <div class="card">
+      <div class="card-header">
+        <h3>Discord</h3>
+      </div>
+      <div class="card-body">
+        <p>
+            We are a heavily discord-based community, though we are in the process of getting Imperium IT up and running with the advent of our new squad
+        </p>
+        <p>
+            Please make sure you have it open when you are in space or available to react to save folks, etc. We chat a ton. No opsec in the public lobby.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">Scanning and Pathfinder</h1>
+    <div class="card">
+      <p class="lead mt-3">
+        This tool will automatically track the location (when you are logged in to it) for the character within Imperium. For those using alts in the hole who are in the alt-corp, Serenity Ventures, or elsewhere (read: Neutral to Imperium), Pathfinder will not track your location, or use any other associated functionality, e,g automatically adding new wormholes in the chain. Do not try to bring neutral alts that aren’t on our acl. They will be killed. If someone tells you to stop shooting their alt, however, at least in school, please hold them to verify. This is one additional reason why being on comms is important.
+      </p>
+
+      <p class="lead">
+        So how does pathfinder work? Pathfinder constantly tracks the pilots you logged on pathfinder via EVE’s API. If the API tells pathfinder that your current system is different from the system logged in pathfinder, pathfinder will assume that you jumped to that other system and it makes a connection between the two systems. It is recommended to always have your scanning/active pilot logged in on pathfinder.
+      </p>
+
+      <p class="lead fw-bold">
+          <i>We have a bookmarking scheme that everyone should follow. For bookmark expiration, ALWAYS always set it to 2 days. For the naming scheme, use the following:
+        </i>
+      </p>
+
+      <p>
+        If it is a gas/data/relic site, right click the signature from the probe scanner window and save the signature. Don't change anything on its name, set its expiration to 2 days, and save it to the appropriate subfolder inside the bookmark folder.
+      </p>
+
+      <p class="fw-bold">
+        For wormholes, the naming scheme has a few extra steps:
+        <ol>
+            <li class="mb-4">Warp to the wormhole at any range, right click on the wormhole, and select “Save Location”. Never save wormholes from the probe scanner window.</li>
+            <li class="mb-4">If the wormhole leads back to your origin point, always start the name with an asterisk</li>
+            <li class="mb-4">After that, add the class of the wormhole it is leading to. If you don’t know what class does it lead to, refer below:
+                <ul>
+                    <li class="mb-2">
+                        ...lead into unknown parts of space - C1/2/3
+                    </li>
+                    <li class="mb-2">
+                        ...lead into dangerous unknown parts of space - C4/5
+                    </li>
+                    <li class="mb-2">
+                        ...lead into deadly unknown parts of space - C6
+                    </li>
+                    <li class="mb-2">
+                        ...lead into high security parts of space - hisec space
+                    </li>
+                    <li class="mb-2">
+                        ...lead into low security parts of space - low sec space
+                    </li>
+                    <li class="mb-2">
+                        …lead into null security parts of space - null space
+                    </li>
+                </ul>
+            </li>
+            <li class="mb-4">Next, add the 3 letters of its sig ID. Using the example above we would have C4a XIY, C4b ZZK, C4c TFU.</li>
+            <li class="mb-4 fw-bold">Next, add in the last 3 numbers of the system to which the hole leads, or the first four letters of the named system to which it leads.
+                <ul>
+                    <li class="mb-2">
+                        You won't know this information at first, so make the bookmark as instructed when you land on the wormhole you just scanned.
+                    </li>
+                    <li class="mb-2">
+                        Hit enter and then right click the bookmark you just made and hit edit bookmark. Do not hit submit.
+                    </li>
+                    <li class="mb-2">
+                        Jump through the wormhole and add the j code or name to the bm. Hitting submit will now update the bookmark on the side you came from.
+                    </li>
+                </ul>
+            </li>
+            <li class="mb-4">Finally, add other information such as “Frig” if it is a frig hole or “EoL” if it is already “end of life”. You can check this out by right clicking on the wormhole and selecting ‘show info’.</li>
+        </ol>
+      </p>
+      <p>
+        After bookmarking, update pathfinder as well especially for frig holes and EoL holes. This can be done by right clicking on the connection in pathfinder.
+      </p>
+      <!--Picture would go here-->
+      <div class="mb-5">
+          <img src="{{url_for('static', filename='eol1.png')}}" alt="">
+      </div>
+      <p>
+        If the hole is EoL, click on “toggle EOL”. then, update the “ship size” as well with the appropriate value. After that, update the mass status with its appropriate value, especially for critical or verge-of-collapse holes. Also, if there are multiple holes leading to similar class systems, also update pathfinder by double clicking on the system that the hole leads to, and modifying its name to also include the letter we added to make it distinct. Check out the example below.
+      </p>
+      <!--Second picture would go here-->
+      <div class="mb-5">
+          <img src="{{url_for('static', filename='eol2.png')}}" alt="">
+      </div>
+      <p>
+        For example, we managed to scan down 2 holes that both lead to C5 systems. By going through each of the wormholes, pathfinder updates the map according to where you went. After the new system spawns in pathfinder, double click on the system to change the system’s alias and add the corresponding identifier. If there are 2 holes leading to different C5 systems, after each time you go through one of them, you’ll need to edit the system’s alias in pathfinder as well.
+      </p>
+    </div>
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">Industry</h1>
+    <div class="card">
+      <p class="lead mt-3">
+        We have limited capacity for industry in the hole due to the recent inefficiency of changes around ship creation. Please check in with our industrial directorate if you are interested in building, as well as with our gas huffers if you are interested in mining and selling to the in-hole buyback program.
+      </p>
+    </div>
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <h1 class="display-t fw-bold mb-5 text-white">Friends of Genesis</h1>
+    <div class="card">
+      <p class="mt-3">
+        We are a group that seeks to focus on pvp as well as assisting the alliance with wallet restoration during this siege. That means that everyone joiningshould be not just willing, but interested in pvp and making constant steps to get better in terms of sp and skills. One important point of being involved in wormholes is the expectation that we make friends by being willing to throw down and have good fights. Wormhole groups may not like goons in holes, but they will respect you if you fight and don't just blob or dock up. We had notable assistance in our 3rd and final eviction attempt (after successfully defending the first two) from other wormhole entities because of our policy of having good fights.
+      </p>
+
+      <p>
+        <span class="fw-bold">Do not shit talk in local, do not troll or be toxic. We live and die on a much smaller basis and want to be known for good fights even if we can’t instantly be “good” or “elite”.</span> Our goal is to get there over time and a good reputation goes a long way. People who serve as bad representatives of our squad will be booted. We have no intention of being the other incarnations of hole squad.
+      </p>
+    </div>
+  </div>
+
+  <div class="card px-4 py-4 my-5 text-center bg-secondary">
+    <div class="card">
+      <div class="card-header">
+        <h3>Further questions</h3>
+      </div>
+
+      <div class="card-body">
+        <ul>
+            <li class="mb-5">Squad Leadership and CEO Questions: Leyline777</li>
+            <li class="mb-5">General Directorate and Officers:, Chief More, Nate Wheeler, Novakorr</li>
+            <li class="mb-5">Recruitment/alt-related questions - Novakorr</li>
+            <li class="mb-5">PvE-related/general wormhole questions - #general/Imperium Lobby</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
